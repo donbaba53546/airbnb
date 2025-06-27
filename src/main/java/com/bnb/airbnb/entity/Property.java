@@ -44,4 +44,54 @@ public class Property {
     public void setName(String name) {
         this.name = name;
     }
+
+    public int getNumberofBeds() {
+        return numberofBeds;
+    }
+
+    public void setNumberofBeds(int numberofBeds) {
+        this.numberofBeds = numberofBeds;
+    }
+
+    public int getNumberofGuests() {
+        return numberofGuests;
+    }
+
+    public void setNumberofGuests(int numberofGuests) {
+        this.numberofGuests = numberofGuests;
+    }
+    public int getNumberofBathrooms() {
+        return numberofBathrooms;
+    }
+
+    public void setNumberofBathrooms(int numberofBathrooms) {
+        this.numberofBathrooms = numberofBathrooms;
+
+    }
+    public int getNumberofBedrooms() {
+        return numberofBedrooms;
+    }
+    public void setNumberofBedrooms(int numberofBedrooms) {
+        this.numberofBedrooms = numberofBedrooms;
+    }
+    public Country getCountry() {
+        return country;
+    }
+    public void setCountry(Country country) {
+        this.country = country;
+    }
+    public City getCity() {
+        return city;
+    }
+    public void setCity(City city) {
+        this.city = city;
+    }
+    public Long getId() {
+        return id;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+
 }
